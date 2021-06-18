@@ -3,11 +3,11 @@ from numpy import array as npArray
 from numpy import arctan as npAtan
 from numpy import NaN as npNaN
 from numpy import pi as npPi
-from numpy.lib.stride_tricks import sliding_window_view
+#from numpy.lib.stride_tricks import sliding_window_view
 from pandas import Series
 from pandas_ta.utils import get_offset, verify_series
 
-
+'''
 def linreg(close, length=None, offset=None, **kwargs):
     """Indicator: Linear Regression"""
     # Validate arguments
@@ -130,3 +130,4 @@ Kwargs:
 Returns:
     pd.Series: New feature generated.
 """
+'''
