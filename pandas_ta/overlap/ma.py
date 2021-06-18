@@ -5,7 +5,7 @@ from .dema import dema
 from .ema import ema
 from .fwma import fwma
 from .hma import hma
-from .linreg import linreg
+#from .linreg import linreg
 from .midpoint import midpoint
 from .pwma import pwma
 from .rma import rma
